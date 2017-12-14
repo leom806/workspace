@@ -1,2 +1,6 @@
 eclipse.preferences.version=1
+preferences.connection.lock_refresh_rate=10000
+preferences.connection.timeout=45000
+preferences.lock.unlock.enable=true
+preferences.lock.unlock.enable.all=true
 preferences.workspace.uuid=ebb7a933-10c3-46dd-9ff7-de4dc0cad5fc

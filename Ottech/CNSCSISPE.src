@@ -34,6 +34,7 @@ If GFONCTION = "CONSCSI"
   Local Integer ZERAR : ZERAR = 0
   Local Integer FLAG_INI : FLAG_INI = 0
   Local Integer FLAG_FIM : FLAG_FIM = 0
+  Local Char ZWFIL(250) : ZWFIL = '1=1' ## USO DE WFIL APENAS PARA O ESPECÍFICO
 
   Filter [XQSIH]
 
@@ -46,6 +47,7 @@ If GFONCTION = "CONSCSI"
     Read [XQSIH] First
 
     WFIL += " & NUM >='"+[F:XQSIH]NUM+"'"
+    ZWFIL += " & NUM >='"+[F:XQSIH]NUM+"'" ## INCREMENTA O ZWFIL
   Endif
 
   # ID Comentario: 01
@@ -55,6 +57,7 @@ If GFONCTION = "CONSCSI"
     Read [XQSIH] Last
 
     WFIL += " & NUM <= '" + [F:XQSIH]NUM+"'"
+    ZWFIL += " & NUM <= '" + [F:XQSIH]NUM+"'" ## INCREMENTA O ZWFIL
   Endif
 
   #############################################################
@@ -65,7 +68,7 @@ If GFONCTION = "CONSCSI"
     Filter [XQSIH] Where CHAVENFE = [M:CSI1]ZCHAVENFE Order By [F:XQSIH]NUMNFE Asc
     Read [XQSIH] First
 
-    WFIL += " & NUM ='"+[F:XQSIH]NUM+"'"
+    WFIL = "NUM ='"+[F:XQSIH]NUM+"'"      ## SE FOR POR CHAVE ENTÃO DEVE SER APENAS UM REGISTRO
   Endif
 
   #############################################################
@@ -143,17 +146,24 @@ If GFONCTION = "CONSCSI"
 
   If FLAG_INI = 1 & FLAG_FIM = 0
     Filter [XQSIH] Where DTENVSEFAZ >= [M:CSI1]ZDATAINI Order By DTENVSEFAZ Asc
-    Infbox "FLAG_INI"
+#    Infbox "FLAG_INI"
   Endif
 
   If FLAG_INI = 0 & FLAG_FIM = 1
-    Filter [XQSIH] Where DTENVSEFAZ <= [M:CSI1]ZDATAFIM Order By DTENVSEFAZ Asc
-    Infbox "FLAG_FIM"
+    Filter [XQSIH]                        ## LIMPAR FILTRO
+    ZWFIL += '& NUMNFE<>""'               ## DESCONSIDERA OS REGISTROS SEM NFE
+    Filter [XQSIH] Where evalue(ZWFIL) & DTENVSEFAZ <= [M:CSI1]ZDATAFIM Order By DTENVSEFAZ Asc  ## FILTRA A XQSIH LEVANDO OS FILTROS ADICIONAIS
+    Read [XQSIH] First                    ##
+    If fstat                              ## NÃO ENCONTROU NENHUM REGISTRO USANDO AS CONDIÇÕES RELACIONADAS AS NFES
+      WFIL = '1=0'                        ##
+      Return                              ##
+    Endif                                 ##
+#    Infbox "FLAG_FIM"
   Endif
 
   If FLAG_INI = 1 & FLAG_FIM = 1
     Filter [XQSIH] Where DTENVSEFAZ >= [M:CSI1]ZDATAINI & DTENVSEFAZ <= [M:CSI1]ZDATAFIM Order By DTENVSEFAZ Asc
-    Infbox "FLAG_INI | FLAG_FIM"
+#    Infbox "FLAG_INI | FLAG_FIM"
   Endif
 
   Local Integer I : I = 0
@@ -165,10 +175,10 @@ If GFONCTION = "CONSCSI"
     I+=1
   Next
 
-  Infbox num$(I)
+#  Infbox num$(I)
 
   If I = 0
-    WFIL = "1 + 1 = 0"
+    WFIL = "1 = 0"
   Endif
 
 Endif
@@ -193,24 +203,38 @@ $AV_AFFICHE
 
     Next I
 
-    Affzo [M:CSI2]NUM
+#    Affzo [M:CSI2]ZNUMNFE
+
   Endif
 
-  # Apaga as linhas sem nota fiscal
-  Local Integer QNTD : QNTD = -1
+  # Apaga as linhas sem nota fiscal E FORA DE SÉRIE
   For I=0 To [M:CSI2]NBLIG-1
     If ([M:CSI2]ZNUMNFE(I)="")
       Dela I [M:CSI2]NBLIG
+    Endif
+  Next I
+
+  # CORREÇÃO ERRO DE BUSCA SÉRIE INICIAL
+  If [M:CSI1]ZSERNFEINI <> "" & [M:CSI1]ZSERNFEFIM = ""
+    For I=0 To [M:CSI2]NBLIG-1
+      If ([M:CSI2]ZSERNFE(I) < [M:CSI1]ZSERNFEINI)
+        Dela I [M:CSI2]NBLIG
+      Endif
+    Next I
+  Endif
+
+  # APAGA AS LINHAS VAZIAS
+  Local Integer QNTD : QNTD = 0
+  For I=0 To [M:CSI2]NBLIG-1
+    If [M:CSI2]ZNUMNFE(I)=""
       QNTD += 1
     Endif
+  Next I
 
-    Next I
-
-    If (QNTD > -1)
-      [M:CSI2]NBLIG -= QNTD
-    Endif
-
-  Affzo [M:CSI1]
+  If (QNTD > 0)
+    [M:CSI2]NBLIG -= QNTD
+    Affzo [M:CSI2]
+  Endif
 Return
 
 # Ação que é chamada toda vez que acontece alguma alteração em algum campo.
@@ -263,6 +287,9 @@ End
 # ==================================================================== #
 
 $TRATA_SERIE
+
+  Filter [XQSIH]
+
   Local Integer COUNT, LIMITE : LIMITE = rowcount([F:XQSIH])
   Local Integer A(LIMITE), B(LIMITE)
 
@@ -303,6 +330,8 @@ $TRATA_SERIE
   If OP>0
     VALEUR = SELECAO(OP-1)
   Endif
+
+  Filter [XQSIH]
 
 End
 
@@ -386,4 +415,3 @@ Subprog UNIQUE(ARRAY, ARRAY_RET)
 
 
   End
-

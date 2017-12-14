@@ -11,3 +11,11 @@
 2017-12-14 11:43:55,154 [Safe X3 Studio HTTP server] INFO  o.e.jetty.server.AbstractConnector - Started SelectChannelConnector@0.0.0.0:5493
 2017-12-14 11:48:24,556 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-8.1.16.v20140903
 2017-12-14 11:48:24,568 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started SelectChannelConnector@127.0.0.1:41381
+2017-12-14 15:07:49,795 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - stopped o.e.j.s.ServletContextHandler{/help,null}
+2017-12-14 15:07:50,055 [Framework stop] INFO  o.e.j.server.handler.ContextHandler - stopped o.e.j.s.ServletContextHandler{/,null}
+2017-12-14 15:07:58,674 [Safe X3 Studio HTTP server] INFO  org.eclipse.jetty.server.Server - jetty-8.1.16.v20140903
+2017-12-14 15:07:58,767 [Safe X3 Studio HTTP server] INFO  o.e.jetty.server.AbstractConnector - Started SelectChannelConnector@0.0.0.0:5493
+2017-12-14 15:24:24,207 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-8.1.16.v20140903
+2017-12-14 15:24:24,216 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started SelectChannelConnector@127.0.0.1:46423
+2017-12-14 18:23:59,463 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - stopped o.e.j.s.ServletContextHandler{/help,null}
+2017-12-14 18:23:59,561 [Framework stop] INFO  o.e.j.server.handler.ContextHandler - stopped o.e.j.s.ServletContextHandler{/,null}

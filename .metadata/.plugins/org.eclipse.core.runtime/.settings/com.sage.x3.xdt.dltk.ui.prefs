@@ -1,4 +1,13 @@
+com.sage.x3.xdt.dltk.Templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+com.sage.x3.xdt.dltk.ui.templates_migrated=true
 eclipse.preferences.version=1
+formatter.indentation.size=2
+formatter.tabulation.char=space
+formatter.tabulation.size=2
+formatterId=com.sage.x3.xdt.dltk.formatter.X3FormatterFactory
+hoverModifierMasks=org.eclipse.dltk.ui.BestMatchHover;0;com.sage.x3.xdt.dltk.debug.ui.X3DebugHover;0;com.sage.x3.xdt.dltk.ui.documentation.hover;0;org.eclipse.dltk.ui.ProblemHover;0;org.eclipse.dltk.ui.DocumentationHover;0;org.eclipse.dltk.ui.ScriptSourceHover;131072;org.eclipse.dltk.ui.AnnotationHover;0;
+hoverModifiers=org.eclipse.dltk.ui.BestMatchHover;0;com.sage.x3.xdt.dltk.debug.ui.X3DebugHover;\!0;com.sage.x3.xdt.dltk.ui.documentation.hover;\!0;org.eclipse.dltk.ui.ProblemHover;\!0;org.eclipse.dltk.ui.DocumentationHover;\!0;org.eclipse.dltk.ui.ScriptSourceHover;Shift;org.eclipse.dltk.ui.AnnotationHover;\!0;
 sourceHoverBackgroundColor.SystemDefault=true
 useAnnotationsPrefPage=true
 useQuickDiffPrefPage=true
+x3console.new_invitation=> 

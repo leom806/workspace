@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="com.sage.x3.xdt.common.ui.ui.X3GetFileDialog">
+		<item value="560" key="DIALOG_WIDTH"/>
+		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="425" key="DIALOG_HEIGHT"/>
+		<item value="403" key="DIALOG_X_ORIGIN"/>
+		<item value="158" key="DIALOG_Y_ORIGIN"/>
+	</section>
 	<section name="com.sage.x3.xdt.common.ui.ui.X3CredentialsDialog">
 		<item value="508" key="DIALOG_X_ORIGIN"/>
 		<item value="245" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="com.sage.x3.xdt.common.ui.ui.X3UserParametersDialog">
+		<item value="526" key="DIALOG_WIDTH"/>
+		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		<item value="345" key="DIALOG_HEIGHT"/>
+		<item value="420" key="DIALOG_X_ORIGIN"/>
+		<item value="198" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>
