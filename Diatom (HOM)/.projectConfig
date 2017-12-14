@@ -1,0 +1,9 @@
+# DTHML project settings
+# The endpoint in an uri form. The scheme define the connection type# http:// for update 8.0 and greater, x3:// or none for previous versions
+uri=http://187.62.218.115:3118/DTHML/DTHML
+# ===================================================
+# Obsolete settings (kept for backward compatibility)
+# ===================================================
+server=187.62.218.115
+port=3118
+folder=DTHML

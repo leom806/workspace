@@ -1,0 +1,29 @@
+#<AdxTL>@(#)0.0.0.0 $Revision$ 
+
+  # 4GL
+
+  Local Char INDEX(50)(5)
+  For I=0 To dim(INDEX)
+    INDEX(I) = num$(I)
+  Next
+
+  Local Char T(30)(dim(INDEX))(0..)
+  
+  T(func GET(INDEX, "2") )(0) = "OI1"
+  
+  Funprog GET(INDEX, MSG)
+     Value Char MSG()
+     Value Char INDEX()()()
+     Local Integer I
+     For I=0 To dim(INDEX)
+       If(INDEX(I)=MSG)
+          End I
+       Endif
+     Next
+  End 0
+
+
+  # Ruby
+  # puts index["2"]
+
+

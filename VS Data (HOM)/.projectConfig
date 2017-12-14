@@ -1,0 +1,9 @@
+# HOMVSD project settings
+# The endpoint in an uri form. The scheme define the connection type# http:// for update 8.0 and greater, x3:// or none for previous versions
+uri=https://vsdata.sageerpx3.com.br/HOMVSD/HOMVSD
+# ===================================================
+# Obsolete settings (kept for backward compatibility)
+# ===================================================
+server=vsdata.sageerpx3.com.br
+port=443
+folder=HOMVSD

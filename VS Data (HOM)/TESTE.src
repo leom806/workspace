@@ -1,0 +1,12 @@
+#<AdxTL>@(#)0.0.0.0 $Revision$ 
+
+  # 4GL
+
+  Local Char INDEX(50)(5)
+  For I=0 To dim(INDEX)
+    INDEX(I) = num$(I)
+  Next
+
+
+  # Ruby
+  # puts index["2"]

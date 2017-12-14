@@ -1,0 +1,9 @@
+# OT02 project settings
+# The endpoint in an uri form. The scheme define the connection type# http:// for update 8.0 and greater, x3:// or none for previous versions
+uri=http://187.49.34.207/OT02/OT02
+# ===================================================
+# Obsolete settings (kept for backward compatibility)
+# ===================================================
+server=187.49.34.207
+port=80
+folder=OT02

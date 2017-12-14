@@ -1,0 +1,1847 @@
+!SESSION 2017-12-14 10:08:57.992 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=9-Ubuntu
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.osgi 4 0 2017-12-14 10:10:11.187
+!MESSAGE Application error
+!STACK 1
+java.lang.NoClassDefFoundError: org/w3c/dom/stylesheets/StyleSheet
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngineManager.getCSSSWTEngine(ThemeEngineManager.java:41)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngineManager.getEngineForDisplay(ThemeEngineManager.java:30)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createThemeEngine(PartRenderingEngine.java:1428)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.initializeStyling(PartRenderingEngine.java:1281)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1036)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+Caused by: java.lang.ClassNotFoundException: org.w3c.dom.stylesheets.StyleSheet cannot be found by org.eclipse.e4.ui.css.core_0.10.100.v20140424-2042
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:432)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:337)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	... 26 more
+!SESSION 2017-12-14 10:16:00.574 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=9-Ubuntu
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.osgi 4 0 2017-12-14 10:16:04.774
+!MESSAGE Application error
+!STACK 1
+java.lang.NoClassDefFoundError: org/w3c/dom/stylesheets/StyleSheet
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngineManager.getCSSSWTEngine(ThemeEngineManager.java:41)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngineManager.getEngineForDisplay(ThemeEngineManager.java:30)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createThemeEngine(PartRenderingEngine.java:1428)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.initializeStyling(PartRenderingEngine.java:1281)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1036)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+Caused by: java.lang.ClassNotFoundException: org.w3c.dom.stylesheets.StyleSheet cannot be found by org.eclipse.e4.ui.css.core_0.10.100.v20140424-2042
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:432)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:337)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	... 26 more
+!SESSION 2017-12-14 11:09:05.553 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-12-14 11:11:54.978
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 10001 2017-12-14 11:11:54.978
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 4 0 2017-12-14 11:11:54.978
+!MESSAGE Unexpected Error.  Could not process the request. Check the error log for details.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-12-14 11:11:54.982
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 10001 2017-12-14 11:11:54.982
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 4 0 2017-12-14 11:11:54.982
+!MESSAGE Unexpected Error.  Could not process the request. Check the error log for details.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-12-14 11:11:55.016
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 10001 2017-12-14 11:11:55.017
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 4 0 2017-12-14 11:11:55.017
+!MESSAGE Unexpected Error.  Could not process the request. Check the error log for details.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-12-14 11:11:55.017
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 10001 2017-12-14 11:11:55.017
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 4 0 2017-12-14 11:11:55.017
+!MESSAGE Unexpected Error.  Could not process the request. Check the error log for details.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-12-14 11:11:55.036
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 10001 2017-12-14 11:11:55.036
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 4 0 2017-12-14 11:11:55.036
+!MESSAGE Unexpected Error.  Could not process the request. Check the error log for details.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-12-14 11:11:55.036
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 10001 2017-12-14 11:11:55.036
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 4 0 2017-12-14 11:11:55.036
+!MESSAGE Unexpected Error.  Could not process the request. Check the error log for details.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-12-14 11:11:55.054
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 10001 2017-12-14 11:11:55.054
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 4 0 2017-12-14 11:11:55.054
+!MESSAGE Unexpected Error.  Could not process the request. Check the error log for details.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-12-14 11:11:55.055
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 10001 2017-12-14 11:11:55.055
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 4 0 2017-12-14 11:11:55.055
+!MESSAGE Unexpected Error.  Could not process the request. Check the error log for details.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-12-14 11:11:55.073
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 10001 2017-12-14 11:11:55.073
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 4 0 2017-12-14 11:11:55.073
+!MESSAGE Unexpected Error.  Could not process the request. Check the error log for details.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2017-12-14 11:11:55.075
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 10001 2017-12-14 11:11:55.075
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 4 0 2017-12-14 11:11:55.075
+!MESSAGE Unexpected Error.  Could not process the request. Check the error log for details.
+
+!ENTRY com.sage.x3.xdt.common.core 1 0 2017-12-14 11:12:20.991
+!MESSAGE SAFE X3 bundle version '2.0.4.rev019-20170123-1429' on Eclipse '4.4.2.M20150204-1700'
+
+!ENTRY com.sage.x3.xdt.common.core 1 0 2017-12-14 11:12:21.001
+!MESSAGE HTTP preferences updated to use fixed port 5493.
+
+!ENTRY com.sage.x3.xdt.http.server 1 0 2017-12-14 11:12:21.007
+!MESSAGE Starting X3 http server on port 5493
+
+!ENTRY com.sage.x3.xdt.common.core 1 0 2017-12-14 11:12:21.012
+!MESSAGE Update check frequency is set to 'day', last check was on 1970-01-01T00:00:00Z
+
+!ENTRY com.sage.x3.xdt.common.core 1 0 2017-12-14 11:12:21.054
+!MESSAGE Dbgp proxy discovering finished by StatusInfo OK: null
+
+!ENTRY com.sage.x3.xdt.dltk.launching 1 1 2017-12-14 11:12:21.097
+!MESSAGE Dbgp service running at port 10000
+
+!ENTRY com.sage.x3.xdt.http.server 1 0 2017-12-14 11:12:21.278
+!MESSAGE X3 http server started on port 5493
+
+!ENTRY org.eclipse.ui.browser 2 0 2017-12-14 11:12:21.707
+!MESSAGE Internal browser is not available: No more handles [Unknown Mozilla path (MOZILLA_FIVE_HOME not set)]
+
+!ENTRY com.sage.x3.xdt.common.core 1 0 2017-12-14 11:12:31.767
+!MESSAGE Check for updates in: http://pluginx3.sage.fr/safex3/studio/updates/
+
+!ENTRY com.sage.x3.xdt.common.core 1 0 2017-12-14 11:12:41.452
+!MESSAGE Auto update info: No updates were found.
+
+!ENTRY com.sage.x3.xdt.http.server 1 0 2017-12-14 11:12:58.717
+!MESSAGE X3 http server stopped
+
+!ENTRY com.sage.x3.xdt.common.core 1 0 2017-12-14 11:12:58.816
+!MESSAGE Dbgp proxy discovering finished by Status CANCEL: unknown code=1  null
+!SESSION 2017-12-14 11:13:00.089 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -data /home/momente/workspace -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY com.sage.x3.xdt.common.core 1 0 2017-12-14 11:13:07.297
+!MESSAGE SAFE X3 bundle version '2.0.4.rev019-20170123-1429' on Eclipse '4.4.2.M20150204-1700'
+
+!ENTRY com.sage.x3.xdt.common.core 1 0 2017-12-14 11:13:07.374
+!MESSAGE Update check frequency is set to 'day', last check was on 2017-12-14T13:12:40Z
+
+!ENTRY com.sage.x3.xdt.http.server 1 0 2017-12-14 11:13:07.412
+!MESSAGE Starting X3 http server on port 5493
+
+!ENTRY com.sage.x3.xdt.common.core 1 0 2017-12-14 11:13:07.430
+!MESSAGE Dbgp proxy discovering finished by StatusInfo OK: null
+
+!ENTRY com.sage.x3.xdt.dltk.launching 1 1 2017-12-14 11:13:07.499
+!MESSAGE Dbgp service running at port 10000
+
+!ENTRY com.sage.x3.xdt.http.server 1 0 2017-12-14 11:13:07.822
+!MESSAGE X3 http server started on port 5493
+
+!ENTRY com.sage.x3.xdt.common.core 1 0 2017-12-14 11:13:09.862
+!MESSAGE Check for updates in: http://pluginx3.sage.fr/safex3/studio/updates/
+
+!ENTRY com.sage.x3.xdt.common.core 1 0 2017-12-14 11:13:15.060
+!MESSAGE Auto update info: No updates were found.
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:25.913
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.227
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.228
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.229
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.230
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.230
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.231
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.231
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.232
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.234
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.234
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.235
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.235
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.236
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.236
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.238
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.239
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.240
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.240
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.241
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.241
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.242
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.242
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.243
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.243
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.244
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.245
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.245
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.245
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.246
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.246
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.247
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.247
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.247
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.248
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.248
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.249
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.249
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.249
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.250
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.251
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.251
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.252
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.252
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.253
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.254
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.254
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.255
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.256
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.256
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.257
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.258
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.258
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.259
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.259
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.260
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.261
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.262
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.262
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.263
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.268
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.269
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.269
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.270
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.271
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.272
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.273
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.274
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.275
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.275
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.276
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.277
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.278
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.279
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.280
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.280
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.281
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.281
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.283
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.283
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.284
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.285
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.285
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.286
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.287
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.287
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.288
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.290
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.291
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.291
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.292
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.293
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.294
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.295
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.295
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.296
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.297
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.298
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.299
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.300
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.302
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.304
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.305
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.306
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.308
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.309
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.310
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.311
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.314
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.315
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.315
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.316
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.318
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.320
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.321
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.322
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.322
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.323
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.323
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.324
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.325
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.326
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.326
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.327
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.328
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.328
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.329
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.330
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.330
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.331
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.332
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.332
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.333
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.334
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.334
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.335
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.336
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.336
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:13:26.337
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY org.eclipse.team.svn.core.svnnature 4 0 2017-12-14 11:15:11.787
+!MESSAGE Problems occurred while performing installation: Operation details
+!STACK 1
+org.eclipse.core.runtime.CoreException: Operation details
+	at org.eclipse.team.svn.ui.discovery.PrepareInstallProfileJob_3_6.resolve(PrepareInstallProfileJob_3_6.java:129)
+	at org.eclipse.team.svn.ui.discovery.PrepareInstallProfileJob_3_6.run(PrepareInstallProfileJob_3_6.java:97)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Contains: Cannot complete the install because one or more required items could not be found.
+Contains: Software being installed: Subversive SVN Connectors 4.1.3.I20150214-1700 (org.polarion.eclipse.team.svn.connector.feature.group 4.1.3.I20150214-1700)
+Contains: Missing requirement: Subversive SVN Connectors 4.1.3.I20150214-1700 (org.polarion.eclipse.team.svn.connector.feature.group 4.1.3.I20150214-1700) requires 'org.eclipse.team.svn.feature.group [2.0.0.I20131101-1700,3.0.0)' but it could not be found
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 4 10053 2017-12-14 11:15:11.789
+!MESSAGE Operation details
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 10053 2017-12-14 11:15:11.789
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-12-14 11:15:11.789
+!MESSAGE Software being installed: Subversive SVN Connectors 4.1.3.I20150214-1700 (org.polarion.eclipse.team.svn.connector.feature.group 4.1.3.I20150214-1700)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-12-14 11:15:11.789
+!MESSAGE Missing requirement: Subversive SVN Connectors 4.1.3.I20150214-1700 (org.polarion.eclipse.team.svn.connector.feature.group 4.1.3.I20150214-1700) requires 'org.eclipse.team.svn.feature.group [2.0.0.I20131101-1700,3.0.0)' but it could not be found
+
+!ENTRY com.sage.x3.xdt.common.core 1 0 2017-12-14 11:16:16.846
+!MESSAGE [187.49.34.207(bb3122cf.maxiweb.com.br):80@OT02] 'AXDTMAIN' version is 2.0.4.34
+
+!ENTRY com.sage.x3.xdt.http.server 1 0 2017-12-14 11:40:27.228
+!MESSAGE X3 http server stopped
+
+!ENTRY com.sage.x3.xdt.common.core 1 0 2017-12-14 11:40:27.312
+!MESSAGE Dbgp proxy discovering finished by Status CANCEL: unknown code=1  null
+!SESSION 2017-12-14 11:43:07.276 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY com.sage.x3.xdt.common.core 1 0 2017-12-14 11:43:12.709
+!MESSAGE SAFE X3 bundle version '2.0.4.rev019-20170123-1429' on Eclipse '4.4.2.M20150204-1700'
+
+!ENTRY com.sage.x3.xdt.http.server 1 0 2017-12-14 11:43:12.795
+!MESSAGE Starting X3 http server on port 5493
+
+!ENTRY com.sage.x3.xdt.dltk.launching 1 1 2017-12-14 11:43:12.897
+!MESSAGE Dbgp service running at port 10000
+
+!ENTRY com.sage.x3.xdt.http.server 1 0 2017-12-14 11:43:13.116
+!MESSAGE X3 http server started on port 5493
+
+!ENTRY com.sage.x3.xdt.common.core 1 0 2017-12-14 11:43:13.272
+!MESSAGE Update check frequency is set to 'day', last check was on 2017-12-14T13:13:15Z
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:13.646
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.485
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.488
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.489
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.496
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.497
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.498
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.499
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.500
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.501
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.501
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.502
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.503
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.504
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.505
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.507
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.509
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.510
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.512
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.513
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.514
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.515
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.516
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.517
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.518
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.518
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.519
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.520
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.521
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.522
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.523
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.524
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.525
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.526
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.527
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.530
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.531
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.531
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.532
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.533
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.534
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.535
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.536
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.537
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.538
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.539
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.540
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.541
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.542
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.543
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.544
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.546
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.547
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.549
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.552
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.557
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.558
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.562
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.563
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.564
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.565
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.565
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.566
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.567
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.572
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.573
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.574
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.574
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.575
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.575
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.578
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.579
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.580
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.580
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.581
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.582
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.582
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.583
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.583
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.584
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.585
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.585
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.586
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.586
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.587
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.588
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.588
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.589
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.589
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.590
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.590
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.591
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.592
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.592
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.593
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.593
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.594
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.595
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.595
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.596
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.596
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.597
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.597
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.598
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.599
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.599
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.600
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.600
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.601
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.602
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.602
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.611
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.612
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.613
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.613
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.614
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.614
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.615
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.616
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.616
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.617
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.617
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.618
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.619
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.619
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.620
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.620
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.621
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.625
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.628
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.628
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.629
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.630
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.630
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.631
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.632
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.632
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.633
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.dltk.core 2 2 2017-12-14 11:43:14.633
+!MESSAGE Input is not a ressource: Assuming higher engine compliance and source file type
+
+!ENTRY com.sage.x3.xdt.common.core 1 0 2017-12-14 11:43:25.644
+!MESSAGE Check for updates in: http://pluginx3.sage.fr/safex3/studio/updates/
+
+!ENTRY com.sage.x3.xdt.common.core 1 0 2017-12-14 11:43:30.261
+!MESSAGE Auto update info: No updates were found.
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 11:43:33.304
+!MESSAGE Failed to get credential from Secure Storage
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:264)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:106)
+	at com.sage.x3.xdt.common.core.connector.Credentials.fromStore(Credentials.java:128)
+	at com.sage.x3.xdt.common.core.connector.X3ProjectConfigHelper.readCredentials(X3ProjectConfigHelper.java:326)
+	at com.sage.x3.xdt.common.core.connector.X3ProjectConfigHelper.getCredential(X3ProjectConfigHelper.java:257)
+	at com.sage.x3.xdt.common.core.connector.X3ProjectConfigHelper.getX3Credential(X3ProjectConfigHelper.java:314)
+	at com.sage.x3.xdt.common.core.connector.X3ProjectConfigHelper.loadConfig(X3ProjectConfigHelper.java:191)
+	at com.sage.x3.xdt.common.core.connector.X3ProjectConfigHelper.getSessionProperty(X3ProjectConfigHelper.java:126)
+	at com.sage.x3.xdt.common.core.connector.X3ProjectConfigHelper.getEndpoint(X3ProjectConfigHelper.java:209)
+	at com.sage.x3.xdt.common.core.connector.X3ProjectConfigHelper.getConnectionConfig(X3ProjectConfigHelper.java:424)
+	at com.sage.x3.xdt.dltk.internal.dbgp.DbgpProxyDiscoveringJob$CheckingProjectJob.run(DbgpProxyDiscoveringJob.java:159)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.sage.x3.xdt.common.core 1 0 2017-12-14 11:43:33.519
+!MESSAGE Dbgp proxy service started for 'http://187.49.34.207'
+
+!ENTRY com.sage.x3.xdt.common.core 1 0 2017-12-14 11:43:33.519
+!MESSAGE Dbgp proxy discovering finished by StatusInfo OK: null
+
+!ENTRY com.sage.x3.xdt.http.server 1 0 2017-12-14 11:43:41.448
+!MESSAGE X3 http server stopped
+
+!ENTRY com.sage.x3.xdt.common.core 1 0 2017-12-14 11:43:41.600
+!MESSAGE Logout from http://187.49.34.207 - Logged out
+
+!ENTRY com.sage.x3.xdt.common.core 1 0 2017-12-14 11:43:41.600
+!MESSAGE Dbgp proxy discovering finished by Status CANCEL: unknown code=1  null
+!SESSION 2017-12-14 11:43:49.714 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY com.sage.x3.xdt.common.core 1 0 2017-12-14 11:43:54.871
+!MESSAGE SAFE X3 bundle version '2.0.4.rev019-20170123-1429' on Eclipse '4.4.2.M20150204-1700'
+
+!ENTRY com.sage.x3.xdt.http.server 1 0 2017-12-14 11:43:54.892
+!MESSAGE Starting X3 http server on port 5493
+
+!ENTRY com.sage.x3.xdt.dltk.launching 1 1 2017-12-14 11:43:54.945
+!MESSAGE Dbgp service running at port 10000
+
+!ENTRY com.sage.x3.xdt.http.server 1 0 2017-12-14 11:43:55.167
+!MESSAGE X3 http server started on port 5493
+
+!ENTRY com.sage.x3.xdt.common.core 1 0 2017-12-14 11:43:55.329
+!MESSAGE Update check frequency is set to 'day', last check was on 2017-12-14T13:43:30Z
+
+!ENTRY com.sage.x3.xdt.common.core 1 0 2017-12-14 11:44:03.457
+!MESSAGE Check for updates in: http://pluginx3.sage.fr/safex3/studio/updates/
+
+!ENTRY com.sage.x3.xdt.common.core 1 0 2017-12-14 11:44:09.224
+!MESSAGE Auto update info: No updates were found.
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 11:44:12.337
+!MESSAGE Failed to get credential from Secure Storage
+!STACK 0
+org.eclipse.equinox.security.storage.StorageException: No password provided.
+	at org.eclipse.equinox.internal.security.storage.SecurePreferences.get(SecurePreferences.java:264)
+	at org.eclipse.equinox.internal.security.storage.SecurePreferencesWrapper.get(SecurePreferencesWrapper.java:106)
+	at com.sage.x3.xdt.common.core.connector.Credentials.fromStore(Credentials.java:128)
+	at com.sage.x3.xdt.common.core.connector.X3ProjectConfigHelper.readCredentials(X3ProjectConfigHelper.java:326)
+	at com.sage.x3.xdt.common.core.connector.X3ProjectConfigHelper.getCredential(X3ProjectConfigHelper.java:257)
+	at com.sage.x3.xdt.common.core.connector.X3ProjectConfigHelper.getX3Credential(X3ProjectConfigHelper.java:314)
+	at com.sage.x3.xdt.common.core.connector.X3ProjectConfigHelper.loadConfig(X3ProjectConfigHelper.java:191)
+	at com.sage.x3.xdt.common.core.connector.X3ProjectConfigHelper.getSessionProperty(X3ProjectConfigHelper.java:126)
+	at com.sage.x3.xdt.common.core.connector.X3ProjectConfigHelper.getEndpoint(X3ProjectConfigHelper.java:209)
+	at com.sage.x3.xdt.common.core.connector.X3ProjectConfigHelper.getConnectionConfig(X3ProjectConfigHelper.java:424)
+	at com.sage.x3.xdt.dltk.internal.dbgp.DbgpProxyDiscoveringJob$CheckingProjectJob.run(DbgpProxyDiscoveringJob.java:159)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.sage.x3.xdt.common.core 1 0 2017-12-14 11:44:12.518
+!MESSAGE Dbgp proxy service started for 'http://187.49.34.207'
+
+!ENTRY com.sage.x3.xdt.common.core 1 0 2017-12-14 11:44:12.519
+!MESSAGE Dbgp proxy discovering finished by StatusInfo OK: null
+
+!ENTRY com.sage.x3.xdt.common.core 1 0 2017-12-14 11:44:41.332
+!MESSAGE [187.49.34.207(bb3122cf.maxiweb.com.br):80@OT02] 'AXDTMAIN' version is 2.0.4.34
+
+!ENTRY com.sage.x3.xdt.common.ui 1 0 2017-12-14 11:44:45.193
+!MESSAGE /Ottech/CNSCSISPE.src: O fich. está bloqueado por SRV02 (admin) - 14/12/2017 - 11:06:13
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 11:48:24.571
+!MESSAGE Failed to get help content for http:/online-help.sageerpx3.com/erp/pt-PT/v7dev-raw/4gl_using.html
+Status: 0
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 11:48:24.572
+!MESSAGE Failed to get help content for http:/online-help.sageerpx3.com/erp/en-US/v7dev-raw/4gl_using.html
+Status: 0
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 11:48:24.573
+!MESSAGE Failed to get help content for http:/127.0.0.1:41381/help/topic/com.sage.x3.xdt.dltk.doc/language/en-US/Using.htm
+Status: 0
+
+!ENTRY com.sage.x3.xdt.common.core 1 0 2017-12-14 12:05:42.349
+!MESSAGE [vsdata.sageerpx3.com.br(186.237.202.162):443@HOMVSD] 'AXDTMAIN' version is 2.0.4.36
+
+!ENTRY com.sage.x3.xdt.common.ui 2 2 2017-12-14 12:06:02.429
+!MESSAGE No entry found for 'templates'
+
+!ENTRY com.sage.x3.xdt.common.core 1 0 2017-12-14 12:06:20.550
+!MESSAGE [vsdata.sageerpx3.com.br(186.237.202.162):443@HOMVSD] 'AXDTMAIN' version is 2.0.4.36
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 13:03:48.751
+!MESSAGE Cannot register dbgp proxy of vsdata.sageerpx3.com.br: Unresolved address
+
+!ENTRY com.sage.x3.xdt.common.core 1 0 2017-12-14 13:03:48.753
+!MESSAGE Dbgp proxy discovering finished by StatusInfo OK: null
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 13:04:10.537
+!MESSAGE Failed to invoke method 'GET_LOCKED_FILES on http://187.49.34.207/OT02/OT02
+!STACK 0
+java.lang.RuntimeException: [ERROR] forbidden
+
+	at com.sage.x3.xdt.connector.XdtSyracuseConnector.invokeChecked(XdtSyracuseConnector.java:707)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector.invoke(XdtAbstractConnector.java:432)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector$X3InvokeCommand$1.call(XdtAbstractConnector.java:68)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 13:04:20.618
+!MESSAGE Failed to invoke method 'GET_LOCKED_FILES on http://187.49.34.207/OT02/OT02
+!STACK 0
+java.lang.RuntimeException: [ERROR] forbidden
+
+	at com.sage.x3.xdt.connector.XdtSyracuseConnector.invokeChecked(XdtSyracuseConnector.java:707)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector.invoke(XdtAbstractConnector.java:432)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector$X3InvokeCommand$1.call(XdtAbstractConnector.java:68)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 13:04:21.551
+!MESSAGE Failed to invoke method 'LOCK_FILE on https://vsdata.sageerpx3.com.br/HOMVSD/HOMVSD
+!STACK 0
+java.lang.RuntimeException: [ERROR] forbidden
+
+	at com.sage.x3.xdt.connector.XdtSyracuseConnector.invokeChecked(XdtSyracuseConnector.java:707)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector.invoke(XdtAbstractConnector.java:432)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector$X3InvokeCommand$1.call(XdtAbstractConnector.java:68)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 13:04:21.632
+!MESSAGE Failed to invoke method 'GET_FILE on https://vsdata.sageerpx3.com.br/HOMVSD/HOMVSD
+!STACK 0
+java.lang.RuntimeException: [ERROR] forbidden
+
+	at com.sage.x3.xdt.connector.XdtSyracuseConnector.invokeChecked(XdtSyracuseConnector.java:707)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector.invoke(XdtAbstractConnector.java:432)
+	at com.sage.x3.xdt.common.core.connector.XdtRemoteMethod.invoke(XdtRemoteMethod.java:55)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector.getFileContents(XdtAbstractConnector.java:556)
+	at com.sage.x3.xdt.common.core.connector.X3Session$2.call(X3Session.java:785)
+	at com.sage.x3.xdt.common.core.connector.X3Session$2.call(X3Session.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY com.sage.x3.xdt.common.ui 1 0 2017-12-14 13:04:21.636
+!MESSAGE /VS Data (HOM)/ZLEO.src: 
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 13:04:22.045
+!MESSAGE Failed to invoke method 'GET_FILE on https://vsdata.sageerpx3.com.br/HOMVSD/HOMVSD
+!STACK 0
+java.lang.RuntimeException: [ERROR] forbidden
+
+	at com.sage.x3.xdt.connector.XdtSyracuseConnector.invokeChecked(XdtSyracuseConnector.java:707)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector.invoke(XdtAbstractConnector.java:432)
+	at com.sage.x3.xdt.common.core.connector.XdtRemoteMethod.invoke(XdtRemoteMethod.java:55)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector.getFileContents(XdtAbstractConnector.java:556)
+	at com.sage.x3.xdt.common.core.connector.X3Session$2.call(X3Session.java:785)
+	at com.sage.x3.xdt.common.core.connector.X3Session$2.call(X3Session.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 13:04:25.003
+!MESSAGE Failed to invoke method 'LOCK_FILE on https://vsdata.sageerpx3.com.br/HOMVSD/HOMVSD
+!STACK 0
+java.lang.RuntimeException: [ERROR] forbidden
+
+	at com.sage.x3.xdt.connector.XdtSyracuseConnector.invokeChecked(XdtSyracuseConnector.java:707)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector.invoke(XdtAbstractConnector.java:432)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector$X3InvokeCommand$1.call(XdtAbstractConnector.java:68)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 13:04:25.079
+!MESSAGE Failed to invoke method 'GET_FILE on https://vsdata.sageerpx3.com.br/HOMVSD/HOMVSD
+!STACK 0
+java.lang.RuntimeException: [ERROR] forbidden
+
+	at com.sage.x3.xdt.connector.XdtSyracuseConnector.invokeChecked(XdtSyracuseConnector.java:707)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector.invoke(XdtAbstractConnector.java:432)
+	at com.sage.x3.xdt.common.core.connector.XdtRemoteMethod.invoke(XdtRemoteMethod.java:55)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector.getFileContents(XdtAbstractConnector.java:556)
+	at com.sage.x3.xdt.common.core.connector.X3Session$2.call(X3Session.java:785)
+	at com.sage.x3.xdt.common.core.connector.X3Session$2.call(X3Session.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY com.sage.x3.xdt.common.ui 1 0 2017-12-14 13:04:25.080
+!MESSAGE /VS Data (HOM)/ZLEO.src: 
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 13:04:30.804
+!MESSAGE Failed to invoke method 'GET_LOCKED_FILES on https://vsdata.sageerpx3.com.br/HOMVSD/HOMVSD
+!STACK 0
+java.lang.RuntimeException: [ERROR] forbidden
+
+	at com.sage.x3.xdt.connector.XdtSyracuseConnector.invokeChecked(XdtSyracuseConnector.java:707)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector.invoke(XdtAbstractConnector.java:432)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector$X3InvokeCommand$1.call(XdtAbstractConnector.java:68)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 13:04:40.993
+!MESSAGE Failed to invoke method 'GET_LOCKED_FILES on https://vsdata.sageerpx3.com.br/HOMVSD/HOMVSD
+!STACK 0
+java.lang.RuntimeException: [ERROR] forbidden
+
+	at com.sage.x3.xdt.connector.XdtSyracuseConnector.invokeChecked(XdtSyracuseConnector.java:707)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector.invoke(XdtAbstractConnector.java:432)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector$X3InvokeCommand$1.call(XdtAbstractConnector.java:68)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 13:04:51.169
+!MESSAGE Failed to invoke method 'GET_LOCKED_FILES on https://vsdata.sageerpx3.com.br/HOMVSD/HOMVSD
+!STACK 0
+java.lang.RuntimeException: [ERROR] forbidden
+
+	at com.sage.x3.xdt.connector.XdtSyracuseConnector.invokeChecked(XdtSyracuseConnector.java:707)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector.invoke(XdtAbstractConnector.java:432)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector$X3InvokeCommand$1.call(XdtAbstractConnector.java:68)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 13:05:01.376
+!MESSAGE Failed to invoke method 'GET_LOCKED_FILES on https://vsdata.sageerpx3.com.br/HOMVSD/HOMVSD
+!STACK 0
+java.lang.RuntimeException: [ERROR] forbidden
+
+	at com.sage.x3.xdt.connector.XdtSyracuseConnector.invokeChecked(XdtSyracuseConnector.java:707)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector.invoke(XdtAbstractConnector.java:432)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector$X3InvokeCommand$1.call(XdtAbstractConnector.java:68)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 13:05:11.522
+!MESSAGE Failed to invoke method 'GET_LOCKED_FILES on https://vsdata.sageerpx3.com.br/HOMVSD/HOMVSD
+!STACK 0
+java.lang.RuntimeException: [ERROR] forbidden
+
+	at com.sage.x3.xdt.connector.XdtSyracuseConnector.invokeChecked(XdtSyracuseConnector.java:707)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector.invoke(XdtAbstractConnector.java:432)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector$X3InvokeCommand$1.call(XdtAbstractConnector.java:68)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 13:05:22.015
+!MESSAGE Failed to invoke method 'GET_LOCKED_FILES on https://vsdata.sageerpx3.com.br/HOMVSD/HOMVSD
+!STACK 0
+java.lang.RuntimeException: [ERROR] forbidden
+
+	at com.sage.x3.xdt.connector.XdtSyracuseConnector.invokeChecked(XdtSyracuseConnector.java:707)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector.invoke(XdtAbstractConnector.java:432)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector$X3InvokeCommand$1.call(XdtAbstractConnector.java:68)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 13:05:28.768
+!MESSAGE Failed to invoke method 'LOCK_FILE on https://vsdata.sageerpx3.com.br/HOMVSD/HOMVSD
+!STACK 0
+java.lang.RuntimeException: [ERROR] forbidden
+
+	at com.sage.x3.xdt.connector.XdtSyracuseConnector.invokeChecked(XdtSyracuseConnector.java:707)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector.invoke(XdtAbstractConnector.java:432)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector$X3InvokeCommand$1.call(XdtAbstractConnector.java:68)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 13:05:28.854
+!MESSAGE Failed to invoke method 'GET_FILE on https://vsdata.sageerpx3.com.br/HOMVSD/HOMVSD
+!STACK 0
+java.lang.RuntimeException: [ERROR] forbidden
+
+	at com.sage.x3.xdt.connector.XdtSyracuseConnector.invokeChecked(XdtSyracuseConnector.java:707)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector.invoke(XdtAbstractConnector.java:432)
+	at com.sage.x3.xdt.common.core.connector.XdtRemoteMethod.invoke(XdtRemoteMethod.java:55)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector.getFileContents(XdtAbstractConnector.java:556)
+	at com.sage.x3.xdt.common.core.connector.X3Session$2.call(X3Session.java:785)
+	at com.sage.x3.xdt.common.core.connector.X3Session$2.call(X3Session.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY com.sage.x3.xdt.common.ui 1 0 2017-12-14 13:05:28.856
+!MESSAGE /VS Data (HOM)/ZLEO.src: 
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 13:05:32.046
+!MESSAGE Failed to invoke method 'GET_LOCKED_FILES on http://187.49.34.207/OT02/OT02
+!STACK 0
+java.lang.RuntimeException: [ERROR] forbidden
+
+	at com.sage.x3.xdt.connector.XdtSyracuseConnector.invokeChecked(XdtSyracuseConnector.java:707)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector.invoke(XdtAbstractConnector.java:432)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector$X3InvokeCommand$1.call(XdtAbstractConnector.java:68)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 13:05:42.087
+!MESSAGE Failed to invoke method 'GET_LOCKED_FILES on http://187.49.34.207/OT02/OT02
+!STACK 0
+java.lang.RuntimeException: [ERROR] forbidden
+
+	at com.sage.x3.xdt.connector.XdtSyracuseConnector.invokeChecked(XdtSyracuseConnector.java:707)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector.invoke(XdtAbstractConnector.java:432)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector$X3InvokeCommand$1.call(XdtAbstractConnector.java:68)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 13:05:52.277
+!MESSAGE Failed to invoke method 'GET_LOCKED_FILES on https://vsdata.sageerpx3.com.br/HOMVSD/HOMVSD
+!STACK 0
+java.lang.RuntimeException: [ERROR] forbidden
+
+	at com.sage.x3.xdt.connector.XdtSyracuseConnector.invokeChecked(XdtSyracuseConnector.java:707)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector.invoke(XdtAbstractConnector.java:432)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector$X3InvokeCommand$1.call(XdtAbstractConnector.java:68)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 13:05:56.949
+!MESSAGE Failed to invoke method 'LOCK_FILE on https://vsdata.sageerpx3.com.br/HOMVSD/HOMVSD
+!STACK 0
+java.lang.RuntimeException: [ERROR] forbidden
+
+	at com.sage.x3.xdt.connector.XdtSyracuseConnector.invokeChecked(XdtSyracuseConnector.java:707)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector.invoke(XdtAbstractConnector.java:432)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector$X3InvokeCommand$1.call(XdtAbstractConnector.java:68)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 13:05:57.022
+!MESSAGE Failed to invoke method 'GET_FILE on https://vsdata.sageerpx3.com.br/HOMVSD/HOMVSD
+!STACK 0
+java.lang.RuntimeException: [ERROR] forbidden
+
+	at com.sage.x3.xdt.connector.XdtSyracuseConnector.invokeChecked(XdtSyracuseConnector.java:707)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector.invoke(XdtAbstractConnector.java:432)
+	at com.sage.x3.xdt.common.core.connector.XdtRemoteMethod.invoke(XdtRemoteMethod.java:55)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector.getFileContents(XdtAbstractConnector.java:556)
+	at com.sage.x3.xdt.common.core.connector.X3Session$2.call(X3Session.java:785)
+	at com.sage.x3.xdt.common.core.connector.X3Session$2.call(X3Session.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY com.sage.x3.xdt.common.ui 1 0 2017-12-14 13:05:57.027
+!MESSAGE /VS Data (HOM)/TESTE.src: 
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 13:05:57.733
+!MESSAGE Failed to invoke method 'GET_FILE on https://vsdata.sageerpx3.com.br/HOMVSD/HOMVSD
+!STACK 0
+java.lang.RuntimeException: [ERROR] forbidden
+
+	at com.sage.x3.xdt.connector.XdtSyracuseConnector.invokeChecked(XdtSyracuseConnector.java:707)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector.invoke(XdtAbstractConnector.java:432)
+	at com.sage.x3.xdt.common.core.connector.XdtRemoteMethod.invoke(XdtRemoteMethod.java:55)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector.getFileContents(XdtAbstractConnector.java:556)
+	at com.sage.x3.xdt.common.core.connector.X3Session$2.call(X3Session.java:785)
+	at com.sage.x3.xdt.common.core.connector.X3Session$2.call(X3Session.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 13:06:02.421
+!MESSAGE Failed to invoke method 'GET_LOCKED_FILES on https://vsdata.sageerpx3.com.br/HOMVSD/HOMVSD
+!STACK 0
+java.lang.RuntimeException: [ERROR] forbidden
+
+	at com.sage.x3.xdt.connector.XdtSyracuseConnector.invokeChecked(XdtSyracuseConnector.java:707)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector.invoke(XdtAbstractConnector.java:432)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector$X3InvokeCommand$1.call(XdtAbstractConnector.java:68)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 13:06:10.685
+!MESSAGE Failed to invoke method 'LOCK_FILE on https://vsdata.sageerpx3.com.br/HOMVSD/HOMVSD
+!STACK 0
+java.lang.RuntimeException: [ERROR] forbidden
+
+	at com.sage.x3.xdt.connector.XdtSyracuseConnector.invokeChecked(XdtSyracuseConnector.java:707)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector.invoke(XdtAbstractConnector.java:432)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector$X3InvokeCommand$1.call(XdtAbstractConnector.java:68)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 13:06:10.761
+!MESSAGE Failed to invoke method 'GET_FILE on https://vsdata.sageerpx3.com.br/HOMVSD/HOMVSD
+!STACK 0
+java.lang.RuntimeException: [ERROR] forbidden
+
+	at com.sage.x3.xdt.connector.XdtSyracuseConnector.invokeChecked(XdtSyracuseConnector.java:707)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector.invoke(XdtAbstractConnector.java:432)
+	at com.sage.x3.xdt.common.core.connector.XdtRemoteMethod.invoke(XdtRemoteMethod.java:55)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector.getFileContents(XdtAbstractConnector.java:556)
+	at com.sage.x3.xdt.common.core.connector.X3Session$2.call(X3Session.java:785)
+	at com.sage.x3.xdt.common.core.connector.X3Session$2.call(X3Session.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY com.sage.x3.xdt.common.ui 1 0 2017-12-14 13:06:10.763
+!MESSAGE /VS Data (HOM)/TESTE.src: 
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 13:06:12.506
+!MESSAGE Failed to invoke method 'GET_LOCKED_FILES on https://vsdata.sageerpx3.com.br/HOMVSD/HOMVSD
+!STACK 0
+java.lang.RuntimeException: [ERROR] forbidden
+
+	at com.sage.x3.xdt.connector.XdtSyracuseConnector.invokeChecked(XdtSyracuseConnector.java:707)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector.invoke(XdtAbstractConnector.java:432)
+	at com.sage.x3.xdt.connector.XdtAbstractConnector$X3InvokeCommand$1.call(XdtAbstractConnector.java:68)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY com.sage.x3.xdt.common.core 1 0 2017-12-14 13:06:27.745
+!MESSAGE [vsdata.sageerpx3.com.br(186.237.202.162):443@HOMVSD] 'AXDTMAIN' version is 2.0.4.36
+
+!ENTRY com.sage.x3.xdt.common.ui 1 0 2017-12-14 13:06:50.012
+!MESSAGE Uploading /VS Data (HOM)/TESTE.src
+
+!ENTRY com.sage.x3.xdt.common.ui 1 0 2017-12-14 13:06:50.167
+!MESSAGE Compiling /VS Data (HOM)/TESTE.src
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 13:06:50.423
+!MESSAGE TESTE: Erro nr. 5 - (Linha 10, Coluna 35) - Instrução não reconhecida : Caracter ilegal
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 13:06:59.554
+!MESSAGE Failed to get help content for http:/online-help.sageerpx3.com/erp/pt-PT/v7dev-raw/4gl_char.html
+Status: 0
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 13:06:59.555
+!MESSAGE Failed to get help content for http:/online-help.sageerpx3.com/erp/en-US/v7dev-raw/4gl_char.html
+Status: 0
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 13:06:59.556
+!MESSAGE Failed to get help content for http:/127.0.0.1:41381/help/topic/com.sage.x3.xdt.dltk.doc/language/en-US/Char.htm
+Status: 0
+
+!ENTRY com.sage.x3.xdt.common.core 1 0 2017-12-14 13:07:04.995
+!MESSAGE Logout from http://187.49.34.207 - Logged out
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 13:07:20.658
+!MESSAGE Failed to get help content for http:/online-help.sageerpx3.com/erp/pt-PT/v7dev-raw/4gl_for.html
+Status: 0
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 13:07:20.660
+!MESSAGE Failed to get help content for http:/online-help.sageerpx3.com/erp/en-US/v7dev-raw/4gl_for.html
+Status: 0
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 13:07:20.662
+!MESSAGE Failed to get help content for http:/127.0.0.1:41381/help/topic/com.sage.x3.xdt.dltk.doc/language/en-US/For.htm
+Status: 0
+
+!ENTRY com.sage.x3.xdt.common.ui 1 0 2017-12-14 13:07:21.645
+!MESSAGE Uploading /VS Data (HOM)/TESTE.src
+
+!ENTRY com.sage.x3.xdt.common.ui 1 0 2017-12-14 13:07:21.692
+!MESSAGE Compiling /VS Data (HOM)/TESTE.src
+
+!ENTRY com.sage.x3.xdt.common.core 1 0 2017-12-14 13:18:29.074
+!MESSAGE [187.49.34.207(bb3122cf.maxiweb.com.br):80@OT02] 'AXDTMAIN' version is 2.0.4.34
+
+!ENTRY com.sage.x3.xdt.common.core 1 0 2017-12-14 13:19:28.015
+!MESSAGE [187.62.218.115(AS28165-187-62-218-115.wcs.net.br):3118@DTHML] 'AXDTMAIN' version is 2.0.4.34
+
+!ENTRY com.sage.x3.xdt.common.core 1 0 2017-12-14 13:19:50.438
+!MESSAGE [187.62.218.115(AS28165-187-62-218-115.wcs.net.br):3118@DTHML] 'AXDTMAIN' version is 2.0.4.34
+
+!ENTRY com.sage.x3.xdt.common.core 4 4 2017-12-14 13:20:03.396
+!MESSAGE Failed to get file list of DTHML/TRT.src: 
+!STACK 0
+java.lang.Exception: [ERROR] read ECONNRESET
+
+	at com.sage.x3.xdt.connector.XdtSyracuseConnector.sendOperation(XdtSyracuseConnector.java:1018)
+	at com.sage.x3.xdt.connector.XdtSyracuseConnector.sendOperation(XdtSyracuseConnector.java:987)
+	at com.sage.x3.xdt.connector.XdtSyracuseConnector.getFileList(XdtSyracuseConnector.java:436)
+	at com.sage.x3.xdt.common.core.connector.X3Session.getFiles(X3Session.java:949)
+	at com.sage.x3.xdt.common.core.metadata.X3FileManager.getFiles(X3FileManager.java:136)
+	at com.sage.x3.xdt.common.ui.ui.X3GetFileDialog$4.run(X3GetFileDialog.java:400)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.ui 4 0 2017-12-14 13:20:41.443
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
+	at org.eclipse.swt.SWT.error(SWT.java:4441)
+	at org.eclipse.swt.SWT.error(SWT.java:4356)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:139)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3774)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3412)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:832)
+	at org.eclipse.jface.window.Window.open(Window.java:808)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.run(PropertyDialogAction.java:160)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:519)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4454)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1388)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3799)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3409)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+Caused by: java.lang.NullPointerException
+	at com.sage.x3.xdt.dltk.internal.ui.preferences.X3PropertyPage$2$1.run(X3PropertyPage.java:146)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:136)
+	... 36 more
+
+!ENTRY org.eclipse.team.svn.core.svnnature 4 0 2017-12-14 13:24:16.925
+!MESSAGE SVN: '0x00400006: Validate Repository Location' operation finished with error
+!SUBENTRY 1 org.eclipse.team.svn.core.svnnature 4 0 2017-12-14 13:24:16.925
+!MESSAGE SVN: '0x00400006: Validate Repository Location' operation finished with error: Selected SVN connector library is not available or cannot be loaded.
+If you selected native JavaHL connector, please check if binaries are available or install and select pure Java Subversion connector from the plug-in connectors update site.
+If connectors already installed then you can change the selected one at: Window->Preferences->Team->SVN->SVN Connector.
+!STACK 0
+org.eclipse.team.svn.core.operation.UnreportableException: Selected SVN connector library is not available or cannot be loaded.
+If you selected native JavaHL connector, please check if binaries are available or install and select pure Java Subversion connector from the plug-in connectors update site.
+If connectors already installed then you can change the selected one at: Window->Preferences->Team->SVN->SVN Connector.
+	at org.eclipse.team.svn.core.extension.factory.ISVNConnectorFactory$1.createConnector(ISVNConnectorFactory.java:114)
+	at org.eclipse.team.svn.core.svnstorage.SVNRepositoryLocation.newProxyInstance(SVNRepositoryLocation.java:845)
+	at org.eclipse.team.svn.core.svnstorage.SVNRepositoryLocation.acquireSVNProxy(SVNRepositoryLocation.java:612)
+	at org.eclipse.team.svn.core.utility.SVNUtility.validateRepositoryLocation(SVNUtility.java:816)
+	at org.eclipse.team.svn.ui.wizard.shareproject.AddRepositoryLocationPage$3.runImpl(AddRepositoryLocationPage.java:214)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.run(AbstractActionOperation.java:82)
+	at org.eclipse.team.svn.core.operation.LoggedOperation.run(LoggedOperation.java:40)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTask(ProgressMonitorUtility.java:104)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTaskExternal(ProgressMonitorUtility.java:90)
+	at org.eclipse.team.svn.ui.utility.DefaultCancellableOperationWrapper.run(DefaultCancellableOperationWrapper.java:55)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.team.svn.core.svnnature 4 0 2017-12-14 13:24:32.282
+!MESSAGE SVN: '0x00000230: Get Repository Folder Children' operation finished with error
+!SUBENTRY 1 org.eclipse.team.svn.core.svnnature 4 0 2017-12-14 13:24:32.282
+!MESSAGE Get repository folder children operation failed.
+!STACK 0
+org.eclipse.team.svn.core.operation.UnreportableException: Selected SVN connector library is not available or cannot be loaded.
+If you selected native JavaHL connector, please check if binaries are available or install and select pure Java Subversion connector from the plug-in connectors update site.
+If connectors already installed then you can change the selected one at: Window->Preferences->Team->SVN->SVN Connector.
+	at org.eclipse.team.svn.core.extension.factory.ISVNConnectorFactory$1.createConnector(ISVNConnectorFactory.java:114)
+	at org.eclipse.team.svn.core.svnstorage.SVNRepositoryLocation.newProxyInstance(SVNRepositoryLocation.java:845)
+	at org.eclipse.team.svn.core.svnstorage.SVNRepositoryLocation.acquireSVNProxy(SVNRepositoryLocation.java:612)
+	at org.eclipse.team.svn.core.svnstorage.SVNRepositoryContainer.getChildren(SVNRepositoryContainer.java:77)
+	at org.eclipse.team.svn.core.operation.remote.GetRemoteFolderChildrenOperation.runImpl(GetRemoteFolderChildrenOperation.java:76)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.run(AbstractActionOperation.java:82)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTask(ProgressMonitorUtility.java:104)
+	at org.eclipse.team.svn.core.operation.CompositeOperation.runImpl(CompositeOperation.java:99)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.run(AbstractActionOperation.java:82)
+	at org.eclipse.team.svn.core.operation.LoggedOperation.run(LoggedOperation.java:40)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTask(ProgressMonitorUtility.java:104)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTaskExternal(ProgressMonitorUtility.java:90)
+	at org.eclipse.team.svn.ui.utility.DefaultCancellableOperationWrapper.run(DefaultCancellableOperationWrapper.java:55)
+	at org.eclipse.team.svn.ui.utility.ScheduledOperationWrapper.run(ScheduledOperationWrapper.java:37)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.team.svn.core.svnnature 4 0 2017-12-14 13:24:36.767
+!MESSAGE SVN: '0x00000230: Get Repository Folder Children' operation finished with error
+!SUBENTRY 1 org.eclipse.team.svn.core.svnnature 4 0 2017-12-14 13:24:36.767
+!MESSAGE Get repository folder children operation failed.
+!STACK 0
+org.eclipse.team.svn.core.operation.UnreportableException: Selected SVN connector library is not available or cannot be loaded.
+If you selected native JavaHL connector, please check if binaries are available or install and select pure Java Subversion connector from the plug-in connectors update site.
+If connectors already installed then you can change the selected one at: Window->Preferences->Team->SVN->SVN Connector.
+	at org.eclipse.team.svn.core.extension.factory.ISVNConnectorFactory$1.createConnector(ISVNConnectorFactory.java:114)
+	at org.eclipse.team.svn.core.svnstorage.SVNRepositoryLocation.newProxyInstance(SVNRepositoryLocation.java:845)
+	at org.eclipse.team.svn.core.svnstorage.SVNRepositoryLocation.acquireSVNProxy(SVNRepositoryLocation.java:612)
+	at org.eclipse.team.svn.core.svnstorage.SVNRepositoryContainer.getChildren(SVNRepositoryContainer.java:77)
+	at org.eclipse.team.svn.core.operation.remote.GetRemoteFolderChildrenOperation.runImpl(GetRemoteFolderChildrenOperation.java:76)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.run(AbstractActionOperation.java:82)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTask(ProgressMonitorUtility.java:104)
+	at org.eclipse.team.svn.core.operation.CompositeOperation.runImpl(CompositeOperation.java:99)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.run(AbstractActionOperation.java:82)
+	at org.eclipse.team.svn.core.operation.LoggedOperation.run(LoggedOperation.java:40)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTask(ProgressMonitorUtility.java:104)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTaskExternal(ProgressMonitorUtility.java:90)
+	at org.eclipse.team.svn.ui.utility.DefaultCancellableOperationWrapper.run(DefaultCancellableOperationWrapper.java:55)
+	at org.eclipse.team.svn.ui.utility.ScheduledOperationWrapper.run(ScheduledOperationWrapper.java:37)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.team.svn.core.svnnature 4 0 2017-12-14 13:24:55.349
+!MESSAGE SVN: '0x00000121: Share Projects' operation finished with error
+!SUBENTRY 1 org.eclipse.team.svn.core.svnnature 4 0 2017-12-14 13:24:55.349
+!MESSAGE Share project was failed.
+!STACK 0
+org.eclipse.team.svn.core.operation.UnreportableException: Selected SVN connector library is not available or cannot be loaded.
+If you selected native JavaHL connector, please check if binaries are available or install and select pure Java Subversion connector from the plug-in connectors update site.
+If connectors already installed then you can change the selected one at: Window->Preferences->Team->SVN->SVN Connector.
+	at org.eclipse.team.svn.core.extension.factory.ISVNConnectorFactory$1.createConnector(ISVNConnectorFactory.java:114)
+	at org.eclipse.team.svn.core.svnstorage.SVNRepositoryLocation.newProxyInstance(SVNRepositoryLocation.java:845)
+	at org.eclipse.team.svn.core.svnstorage.SVNRepositoryLocation.acquireSVNProxy(SVNRepositoryLocation.java:612)
+	at org.eclipse.team.svn.core.svnstorage.SVNRepositoryContainer.getChildren(SVNRepositoryContainer.java:77)
+	at org.eclipse.team.svn.core.operation.local.management.ShareProjectOperation$1.run(ShareProjectOperation.java:154)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doSubTask(ProgressMonitorUtility.java:118)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.protectStep(AbstractActionOperation.java:156)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.protectStep(AbstractActionOperation.java:151)
+	at org.eclipse.team.svn.core.operation.local.management.ShareProjectOperation.runImpl(ShareProjectOperation.java:150)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.run(AbstractActionOperation.java:82)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTask(ProgressMonitorUtility.java:104)
+	at org.eclipse.team.svn.core.operation.CompositeOperation.runImpl(CompositeOperation.java:99)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.run(AbstractActionOperation.java:82)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTask(ProgressMonitorUtility.java:104)
+	at org.eclipse.team.svn.core.operation.CompositeOperation.runImpl(CompositeOperation.java:99)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.run(AbstractActionOperation.java:82)
+	at org.eclipse.team.svn.core.operation.LoggedOperation.run(LoggedOperation.java:40)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTask(ProgressMonitorUtility.java:104)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTaskExternal(ProgressMonitorUtility.java:90)
+	at org.eclipse.team.svn.ui.utility.DefaultCancellableOperationWrapper.run(DefaultCancellableOperationWrapper.java:55)
+	at org.eclipse.team.svn.ui.utility.SVNTeamOperationWrapper.run(SVNTeamOperationWrapper.java:35)
+	at org.eclipse.team.internal.ui.actions.JobRunnableContext.run(JobRunnableContext.java:144)
+	at org.eclipse.team.internal.ui.actions.JobRunnableContext$ResourceJob.runInWorkspace(JobRunnableContext.java:72)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.team.svn.core.svnnature 4 0 2017-12-14 13:24:55.349
+!MESSAGE Share project was failed.
+!STACK 0
+org.eclipse.team.svn.core.operation.UnreportableException: Selected SVN connector library is not available or cannot be loaded.
+If you selected native JavaHL connector, please check if binaries are available or install and select pure Java Subversion connector from the plug-in connectors update site.
+If connectors already installed then you can change the selected one at: Window->Preferences->Team->SVN->SVN Connector.
+	at org.eclipse.team.svn.core.extension.factory.ISVNConnectorFactory$1.createConnector(ISVNConnectorFactory.java:114)
+	at org.eclipse.team.svn.core.svnstorage.SVNRepositoryLocation.newProxyInstance(SVNRepositoryLocation.java:845)
+	at org.eclipse.team.svn.core.svnstorage.SVNRepositoryLocation.acquireSVNProxy(SVNRepositoryLocation.java:612)
+	at org.eclipse.team.svn.core.operation.local.management.ShareProjectOperation.runImpl(ShareProjectOperation.java:169)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.run(AbstractActionOperation.java:82)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTask(ProgressMonitorUtility.java:104)
+	at org.eclipse.team.svn.core.operation.CompositeOperation.runImpl(CompositeOperation.java:99)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.run(AbstractActionOperation.java:82)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTask(ProgressMonitorUtility.java:104)
+	at org.eclipse.team.svn.core.operation.CompositeOperation.runImpl(CompositeOperation.java:99)
+	at org.eclipse.team.svn.core.operation.AbstractActionOperation.run(AbstractActionOperation.java:82)
+	at org.eclipse.team.svn.core.operation.LoggedOperation.run(LoggedOperation.java:40)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTask(ProgressMonitorUtility.java:104)
+	at org.eclipse.team.svn.core.utility.ProgressMonitorUtility.doTaskExternal(ProgressMonitorUtility.java:90)
+	at org.eclipse.team.svn.ui.utility.DefaultCancellableOperationWrapper.run(DefaultCancellableOperationWrapper.java:55)
+	at org.eclipse.team.svn.ui.utility.SVNTeamOperationWrapper.run(SVNTeamOperationWrapper.java:35)
+	at org.eclipse.team.internal.ui.actions.JobRunnableContext.run(JobRunnableContext.java:144)
+	at org.eclipse.team.internal.ui.actions.JobRunnableContext$ResourceJob.runInWorkspace(JobRunnableContext.java:72)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
